@@ -1,0 +1,12 @@
+Results
+----------------
+
+We observed the end-to-end time by varying the number threads being launched. By hit and trial, we observed that giving the number of threads = 4 gave us the desired output in a very less time. (Balancing computation and thread-communication).
+
+So, following were our results with 3 iterations in the program.
+
+Large Dataset
+Number of threads launched = 4  * Best end-to-end time 	  (in secs)  = 40.530892  * Average end-to-end time (in secs)  = 40.851084 * Best Algorithm Time 	  (in usecs) = 25832368 * Average Algorithm Time  (in usecs) = 26154830
+
+Medium Dataset
+Number of threads launched = 4  * Best end-to-end time 	  (in secs)  = 9.419849  * Average end-to-end time (in secs)  = 9.635608 * Best Algorithm Time     (in usecs) = 5766563  * Average Algorithm Time  (in usecs) = 5977752
